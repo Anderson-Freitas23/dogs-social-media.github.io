@@ -8,10 +8,10 @@
   overflow: hidden;
   cursor: pointer;
 }
-.photo img {
+.photo > div {
   grid-area: 1 / 1;
 }
-.photo .visualizacao {
+.visualizacao {
   background: rgba( 0, 0, 0, .3);
   color: #fff;
   font-size: 1rem;
