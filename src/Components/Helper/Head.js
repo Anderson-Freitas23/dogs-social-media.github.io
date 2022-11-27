@@ -5,7 +5,7 @@ const Head = (props) => {
     document.title = props.title + " | Dogs";
     document
       .querySelector('meta[name="description"]')
-      .setAttribute(props.description || "");
+      .setAttribute("content", props.description || "");
   }, [props]);
 
   return <></>;
